@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+  		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  		<title>Accessible Dropdown menu</title>
+  		<link rel="stylesheet" href="dropdown.css" media="screen"/>
+	</head>
+	<body>
+	<div>
+			<ul class="nav" >
+				<li>
+					<a href="#">Home</a>
+					<ul role="menu" aria-haspopup="true">
+						<li role="menuitem">
+							<a href="#" onkeydown="">Home 1</a>
+						</li>
+						<li role="menuitem">
+							<a href="#" onkeydown="">Home 2</a>
+						</li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="#">Cats</a>
+					<ul role="menu" aria-haspopup="true">
+						<li role="menuitem">
+							<a href="#">Cat 1</a>
+						</li>
+						<li role="menuitem">
+							<a href="#">Cat 2</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Dogs</a>
+					<ul role="menu" aria-haspopup="true">
+						<li role="menuitem">
+							<a href="#">Dog 1</a>
+						</li>
+						<li role="menuitem">
+							<a href="#">Dog 2</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Kittens</a>
+					<ul role="menu" aria-haspopup="true">
+						<li role="menuitem">
+							<a href="#">Kittens 1</a>
+						</li>
+						<li role="menuitem">
+							<a href="#">Kittens 2</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>	
+
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="dropdown-menu.js"></script>
+	</body>
+
+</html>
